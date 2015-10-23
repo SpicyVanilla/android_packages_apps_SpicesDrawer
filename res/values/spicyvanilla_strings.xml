@@ -49,5 +49,8 @@
 
     <!-- Misc fragment -->
     <string name="misc_settings_title">Miscellaneous</string>
+    <!-- Wake when connected/disconnected -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn on the screen when you connect or disconnect the USB cable</string>
 
 </resources>
