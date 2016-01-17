@@ -20,6 +20,9 @@
 
     <!-- Lock screen fragment -->
     <string name="lockscreen_settings_title">Lock screen</string>
+    <!-- Lockscreen torch -->
+    <string name="keyguard_torch_title">Torch</string>
+    <string name="keyguard_torch_summary">Long press the power button to turn on the flashlight, when the screen is off</string>
     <!-- Lockscreen cover art -->
     <string name="media_art_title">Media cover art</string>
     <string name="media_art_summary">Enable the media cover art on the lockscreen</string>
