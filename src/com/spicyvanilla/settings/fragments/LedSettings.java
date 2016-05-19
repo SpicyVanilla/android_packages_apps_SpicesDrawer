@@ -17,6 +17,8 @@
 package com.spicyvanilla.settings.fragments;
 
 import android.os.Bundle;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
@@ -26,11 +28,21 @@ import com.android.settings.SettingsPreferenceFragment;
 
 public class LedSettings extends SettingsPreferenceFragment {
 
+    private static final String KEY_NOTIFICATION_LIGHT = "notification_light";
+    private static final String KEY_BATTERY_LIGHT = "battery_light";
+
+    private Preference mNotifLedFrag;
+    private Preference mBattLedFrag;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.led_settings);
         PreferenceScreen prefScreen = getPreferenceScreen();
+
+        mNotifLedFrag = findPreference(KEY_NOTIFICATION_LIGHT);
+
+        mBattLedFrag = findPreference(KEY_BATTERY_LIGHT);
     }
 
     @Override
