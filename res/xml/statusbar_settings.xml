@@ -20,6 +20,12 @@
         android:defaultValue="false" />
 
     <PreferenceScreen
+        android:fragment="com.spicyvanilla.settings.fragments.TimeSettings"
+        android:key="spicyvanilla_time_settings"
+        android:title="@string/time_settings_title"
+        android:summary="@string/time_settings_summary" />
+
+    <PreferenceScreen
             android:title="@string/status_bar_icon_blacklist_title"
             android:summary="@string/status_bar_icon_blacklist_summary" >
         <intent android:action="android.intent.action.MAIN"
