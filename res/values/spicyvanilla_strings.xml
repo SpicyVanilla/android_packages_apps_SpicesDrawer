@@ -47,4 +47,7 @@
     <string name="media_art_title">Media cover art</string>
     <string name="media_art_summary">Enable the media cover art on the lockscreen</string>
 
+    <!-- Misc fragment -->
+    <string name="misc_settings_title">Miscellaneous</string>
+
 </resources>

@@ -27,4 +27,9 @@
             android:key="spicyvanilla_lockscreen_settings"
             android:title="@string/lockscreen_settings_title"/>
 
+        <PreferenceScreen
+            android:fragment="com.spicyvanilla.settings.fragments.MiscSettings"
+            android:key="spicyvanilla_misc_settings"
+            android:title="@string/misc_settings_title"/>
+
 </PreferenceScreen>
