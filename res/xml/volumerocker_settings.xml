@@ -14,6 +14,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <com.spicyvanilla.settings.preferences.SystemSettingSwitchPreference
+        android:key="swap_volume_buttons"
+        android:title="@string/swap_volume_buttons_title"
+        android:summary="@string/swap_volume_buttons_summary"
+        android:defaultValue="true"/>
+
+    <com.spicyvanilla.settings.preferences.SystemSettingSwitchPreference
         android:key="volbtn_music_controls"
         android:title="@string/volbtn_music_controls_title"
         android:summary="@string/volbtn_music_controls_summary"
