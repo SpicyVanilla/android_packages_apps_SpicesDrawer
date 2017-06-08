@@ -37,6 +37,9 @@
 
     <!-- Lock screen fragment -->
     <string name="lockscreen_settings_title">Lock screen</string>
+    <!-- Lockscreen double tap to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Double tap to sleep anywhere</string>
+    <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
     <!-- Lockscreen torch -->
     <string name="keyguard_torch_title">Torch</string>
     <string name="keyguard_torch_summary">Long press the power button to turn on the flashlight, when the screen is off</string>
