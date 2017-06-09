@@ -35,6 +35,9 @@
     <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
     <string name="volume_steps_reset">Reset</string>
 
+    <!-- Navigation bar fragment -->
+    <string name="navbar_settings_title">Navigation bar</string>
+
     <!-- Lock screen fragment -->
     <string name="lockscreen_settings_title">Lock screen</string>
     <!-- Lockscreen double tap to sleep -->

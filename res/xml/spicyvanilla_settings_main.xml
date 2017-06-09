@@ -23,6 +23,11 @@
             android:title="@string/volumerocker_settings_title"/>
 
         <PreferenceScreen
+            android:fragment="com.spicyvanilla.settings.fragments.NavBarSettings"
+            android:key="spicyvanilla_navbar_settings"
+            android:title="@string/navbar_settings_title"/>
+
+        <PreferenceScreen
             android:fragment="com.spicyvanilla.settings.fragments.LockScreenSettings"
             android:key="spicyvanilla_lockscreen_settings"
             android:title="@string/lockscreen_settings_title"/>
