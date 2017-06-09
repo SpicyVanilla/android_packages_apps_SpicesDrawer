@@ -63,8 +63,23 @@
 
     <!-- Navigation bar fragment -->
     <string name="navbar_settings_title">Navigation bar</string>
+    <!-- Navbar toggle -->
+    <string name="navbar_enable_bar">Turn on</string>
+    <!-- Navbar Dimensions -->
+    <string name="navbar_dimensions_title">Dimensions</string>
+    <string name="navigation_bar_height_title">Height</string>
+    <string name="navigation_bar_height_landscape_title">Navigation bar height landscape</string>
+    <string name="navigation_bar_width_title">Width</string>
+    <string name="navigation_bar_size_52_dp">52 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (default)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_38_dp">38 dp</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+
     <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Navbar tuner</string>
+    <string name="navbar_tuner_title">Tuner</string>
     <string name="navbar_tuner_summary">Customize the buttons and layout</string>
 
     <!-- Lock screen fragment -->
