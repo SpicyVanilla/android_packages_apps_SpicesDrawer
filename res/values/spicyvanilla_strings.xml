@@ -15,6 +15,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Statusbar fragment -->
+      <string name="statusbar_settings_title">Statusbar</string>
+
     <!-- Volume rocker fragment -->
     <string name="volumerocker_settings_title">Volume rocker</string>
     <!-- Volume key orientation swap -->

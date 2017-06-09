@@ -18,6 +18,11 @@
         android:title="@string/spicyvanilla_settings_title" >
 
         <PreferenceScreen
+            android:fragment="com.spicyvanilla.settings.fragments.StatusBarSettings"
+            android:key="spicyvanilla_statusbar_settings"
+            android:title="@string/statusbar_settings_title"/>
+
+        <PreferenceScreen
             android:fragment="com.spicyvanilla.settings.fragments.VolumeRockerSettings"
             android:key="spicyvanilla_volumerocker_settings"
             android:title="@string/volumerocker_settings_title"/>
