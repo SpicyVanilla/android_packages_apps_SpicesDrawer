@@ -18,6 +18,9 @@
     <!-- Statusbar fragment -->
       <string name="statusbar_settings_title">Statusbar</string>
 
+    <!-- QS panel fragment -->
+    <string name="qs_panel_settings_title">QS panel</string>
+
     <!-- Volume rocker fragment -->
     <string name="volumerocker_settings_title">Volume rocker</string>
     <!-- Volume key orientation swap -->
