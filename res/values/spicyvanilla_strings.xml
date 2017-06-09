@@ -17,9 +17,18 @@
 
     <!-- Statusbar fragment -->
       <string name="statusbar_settings_title">Statusbar</string>
+    <!-- Preference to show/hide embedded battery percentage -->
+    <string name="show_battery_percentage">Battery percentage</string>
+    <string name="show_battery_percentage_summary">Show the battery percentage when not charging</string>
+    <!-- Statusbar icons -->
+    <string name="status_bar_icon_blacklist_title">Icons</string>
+    <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on the status bar</string>
 
     <!-- QS panel fragment -->
     <string name="qs_panel_settings_title">QS panel</string>
+    <!-- Brightness slider -->
+    <string name="qs_brightness_slider_title">Brightness slider</string>
+    <string name="qs_brightness_slider_summary">Show the brightness slider on the quick settings panel</string>
 
     <!-- Volume rocker fragment -->
     <string name="volumerocker_settings_title">Volume rocker</string>
@@ -42,9 +51,21 @@
     <string name="volume_steps_reset">Reset</string>
     <!-- Zen mode options category -->
     <string name="zen_mode">Zen mode options</string>
+    <!-- Volume down enter do not disturb -->
+    <string name="volbtn_down_zen_title">Volume down for DND</string>
+    <string name="volbtn_down_zen_summary">Keep the Volume-down key pressed to enter Do not disturb mode</string>
+    <!-- Volume up exit do not disturb -->
+    <string name="volbtn_up_zen_title">Volume up in DND</string>
+    <string name="volbtn_up_zen_summary">Keep the Volume-up key pressed to exit Do not disturb mode</string>
+    <!-- Volume do not disturb switch -->
+    <string name="vol_zen_title">DND switch</string>
+    <string name="vol_zen_summary">Show the Do not disturb switch on the volume panel</string>
 
     <!-- Navigation bar fragment -->
     <string name="navbar_settings_title">Navigation bar</string>
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Navbar tuner</string>
+    <string name="navbar_tuner_summary">Customize the buttons and layout</string>
 
     <!-- Lock screen fragment -->
     <string name="lockscreen_settings_title">Lock screen</string>
@@ -63,5 +84,8 @@
     <!-- Wake when connected/disconnected -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn on the screen when you connect or disconnect the USB cable</string>
+    <!-- Power notification controls -->
+    <string name="power_notification_title">Power notification controls</string>
+    <string name="power_notification_summary">Advanced notification controls and information</string>
 
 </resources>
