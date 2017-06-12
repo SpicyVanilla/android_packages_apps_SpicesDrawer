@@ -138,6 +138,9 @@
     <string name="media_art_title">Media cover art</string>
     <string name="media_art_summary">Enable the media cover art on the lockscreen</string>
 
+    <!-- Led controls fragment -->
+    <string name="led_settings_title">Led controls</string>
+
     <!-- Misc fragment -->
     <string name="misc_settings_title">Miscellaneous</string>
     <!-- Wake when connected/disconnected -->
