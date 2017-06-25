@@ -31,4 +31,10 @@
         android:title="@string/volume_steps_title"
         android:summary="@string/volume_steps_summary" />
 
+    <PreferenceCategory
+        android:key="zen_mode"
+        android:title="@string/zen_mode">
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

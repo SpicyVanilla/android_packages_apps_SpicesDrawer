@@ -40,6 +40,8 @@
     <string name="volume_steps_system_title">Volume steps: System</string>
     <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
     <string name="volume_steps_reset">Reset</string>
+    <!-- Zen mode options category -->
+    <string name="zen_mode">Zen mode options</string>
 
     <!-- Navigation bar fragment -->
     <string name="navbar_settings_title">Navigation bar</string>
