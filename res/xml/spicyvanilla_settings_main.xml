@@ -20,36 +20,43 @@
         <PreferenceScreen
             android:fragment="com.spicyvanilla.settings.fragments.StatusBarSettings"
             android:key="spicyvanilla_statusbar_settings"
-            android:title="@string/statusbar_settings_title"/>
+            android:title="@string/statusbar_settings_title"
+            android:icon="@drawable/ic_statusbar_settings"/>
 
         <PreferenceScreen
             android:fragment="com.spicyvanilla.settings.fragments.QSPanelSettings"
             android:key="spicyvanilla_qs_panel_settings"
-            android:title="@string/qs_panel_settings_title"/>
+            android:title="@string/qs_panel_settings_title"
+            android:icon="@drawable/ic_qs_panel_settings"/>
 
         <PreferenceScreen
             android:fragment="com.spicyvanilla.settings.fragments.VolumeRockerSettings"
             android:key="spicyvanilla_volumerocker_settings"
-            android:title="@string/volumerocker_settings_title"/>
+            android:title="@string/volumerocker_settings_title"
+            android:icon="@drawable/ic_volumerocker_settings"/>
 
         <PreferenceScreen
             android:fragment="com.spicyvanilla.settings.fragments.NavBarSettings"
             android:key="spicyvanilla_navbar_settings"
-            android:title="@string/navbar_settings_title"/>
+            android:title="@string/navbar_settings_title"
+            android:icon="@drawable/ic_navbar_settings"/>
 
         <PreferenceScreen
             android:fragment="com.spicyvanilla.settings.fragments.LockScreenSettings"
             android:key="spicyvanilla_lockscreen_settings"
-            android:title="@string/lockscreen_settings_title"/>
+            android:title="@string/lockscreen_settings_title"
+            android:icon="@drawable/ic_lockscreen_settings"/>
 
         <PreferenceScreen
             android:fragment="com.spicyvanilla.settings.fragments.LedSettings"
             android:key="spicyvanilla_led_settings"
-            android:title="@string/led_settings_title"/>
+            android:title="@string/led_settings_title"
+            android:icon="@drawable/ic_led_settings"/>
 
         <PreferenceScreen
             android:fragment="com.spicyvanilla.settings.fragments.MiscSettings"
             android:key="spicyvanilla_misc_settings"
-            android:title="@string/misc_settings_title"/>
+            android:title="@string/misc_settings_title"
+            android:icon="@drawable/ic_misc_settings"/>
 
 </PreferenceScreen>
