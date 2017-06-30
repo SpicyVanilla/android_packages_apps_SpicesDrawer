@@ -58,6 +58,15 @@
     <!-- Brightness slider -->
     <string name="qs_brightness_slider_title">Brightness slider</string>
     <string name="qs_brightness_slider_summary">Show the brightness slider on the quick settings panel</string>
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Quick pulldown</string>
+    <string name="quick_pulldown_summary_right">The right edge of the statusbar allows pulling down the QS panel</string>
+    <string name="quick_pulldown_summary_left">The left edge of the statusbar allows pulling down the QS panel</string>
+    <string name="quick_pulldown_summary_both_edges">Both edges of the statusbar allow pulling down the QS panel</string>
+    <string name="quick_pulldown_off">Off</string>
+    <string name="quick_pulldown_left">Left</string>
+    <string name="quick_pulldown_right">Right</string>
+    <string name="quick_pulldown_both_edges">Both edges</string>
 
     <!-- Volume rocker fragment -->
     <string name="volumerocker_settings_title">Volume rocker</string>
